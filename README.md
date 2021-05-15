@@ -8,7 +8,7 @@
 > *The approach doesn't rely on specific monorepo tooling like [Rush](https://rushjs.io/) 
 > or [Nx](https://nx.dev/). This repo focus to be manageable with a regular package manager 
 > like [yarn](https://github.com/yarnpkg/berry), pnpm... Yet most recipes can be replicated somewhere else.
-> Important here is to have something as agnostic as possible with a modern dx and a decent build speed (under a minute).*
+> Important here is to have something **as agnostic as possible** with a modern dx and a decent build baseline speed (under a minute).*
 
 ## What ?
 
@@ -17,8 +17,8 @@ tailwind, prisma 2... check older branches if stuck on older nextjs.
 
 ### Two apps
 
-- [apps/web-app](./apps/web-app): SSR and API: https://vercel-monorepo-test-web-app.vercel.app
-- [apps/blog-app](./apps/blog-app): SSG, consumes web-app API: https://vercel-monorepo-test-blog-app.vercel.app
+- [apps/web-app](./apps/web-app): SSR and API: https://nextjs-monorepo-example-web-app.vercel.app
+- [apps/blog-app](./apps/blog-app): SSG, consumes web-app API: https://nextjs-monorepo-example-blog-app.vercel.app
 
 ### Some shared code
 
