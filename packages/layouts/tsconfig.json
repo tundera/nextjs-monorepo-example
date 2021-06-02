@@ -8,8 +8,7 @@
     "jsx": "react-jsx",
     "noEmit": false,
     "composite": false,
-    "incremental": true,
-    "paths": {}
+    "incremental": true
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
